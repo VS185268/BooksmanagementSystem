@@ -1,8 +1,5 @@
 import './styles.css'
-import Profile from './Profile';
-import { useNavigate } from 'react-router-dom';
 export default function Navbar(){
-    const navigate=useNavigate();
     return (
         <nav className="nav">
         <ul>
